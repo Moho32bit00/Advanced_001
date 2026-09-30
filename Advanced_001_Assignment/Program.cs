@@ -20,5 +20,20 @@ namespace Advanced_001_Assignment
             b = temp;
         }
         #endregion
+
+        #region Q5 
+        public void findnmax<T> (T []arr)where T : IComparable<T>
+        {
+            T max = arr[0];
+
+            for (int i = 1; i < arr.Length; i++)
+            {
+                if (arr[i].CompareTo(max) > 0)
+                {
+                    max = arr[i];
+                }
+            }
+        }
+        #endregion
     }
 }
