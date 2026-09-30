@@ -45,5 +45,9 @@ namespace Advanced_001_Assignment
             }
         }
         #endregion
+
+        #region Q13
+        //Q13) it does return the default value of the T depending on the T Type.
+        #endregion 
     }
 }
