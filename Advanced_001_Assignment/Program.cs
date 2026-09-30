@@ -2,6 +2,16 @@
 
 namespace Advanced_001_Assignment
 {
+    #region Q11 
+    //Q11) T must inherit from a specific class .
+    public class Q11B
+    {
+        public int test { get; set; }
+    }
+    public class Q11C<T> where T : Q11B
+    {
+    }
+    #endregion
 
     internal class Program
     {
