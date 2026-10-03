@@ -81,6 +81,14 @@ namespace Advanced_001_Assignment
         /*
         Q18) Static fields, properties, and constructors are Created per closed generic type, not shared across all generic types.
         */
-        #endregion 
+        #endregion
+
+        #region Q19 
+        /*
+        Q19)lets say we have "derived class" and "base class" and 
+        the derived does inherit for the base and they both have generic types , 
+        the derived has to handle the base generic type by " :Base<T> " and also while making the constructor .
+       */
+        #endregion
     }
 }
