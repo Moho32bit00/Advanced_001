@@ -53,18 +53,27 @@ namespace Advanced_001_Assignment
 
 
         #region Q15
-        /*Q15) covariance allows a method to return a type that is more derived than the type specified 
-         * in the generic parameter , out is the keyword 
+        /*
+        Q15) covariance allows a method to return a type that is more derived than the type specified 
+        in the generic parameter , out is the keyword 
         that is used to apply a covariance explicitly and it does mean that u can only
         use this generic type to return value.
         */
         #endregion
 
         #region Q16 
-        /*Q16) it allows a method to accept an argument of a less derived 
-         type than the one specified by the generic parameter ,in is the keyword 
+        /*
+         Q16) it allows a method to accept an argument of a less derived 
+        type than the one specified by the generic parameter ,in is the keyword 
         that is used to apply a contravariance explicitly and it means that u 
         can only take input with this generic type .
+        */
+        #endregion
+
+        #region Q17
+        /*
+        Q17) the difference is that the contravarience does take IN keyword ("NO return type with the gemeric type ") , 
+        while covariance does take out as the keyword ("you can not tale input using this generic type ").
         */
         #endregion 
     }
