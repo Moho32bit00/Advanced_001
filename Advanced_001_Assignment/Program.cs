@@ -75,6 +75,12 @@ namespace Advanced_001_Assignment
         Q17) the difference is that the contravarience does take IN keyword ("NO return type with the gemeric type ") , 
         while covariance does take out as the keyword ("you can not tale input using this generic type ").
         */
+        #endregion
+
+        #region Q18 
+        /*
+        Q18) Static fields, properties, and constructors are Created per closed generic type, not shared across all generic types.
+        */
         #endregion 
     }
 }
